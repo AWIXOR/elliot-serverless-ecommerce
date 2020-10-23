@@ -3,7 +3,7 @@ const initialState = {
 	content: ""
 };
 
-const cartReducer = (state = initialState, action) => {
+const sideBarReducer = (state = initialState, action) => {
 	switch (action.type) {
 		case "OPEN_SIDEBAR":
 			return {
@@ -24,4 +24,4 @@ const cartReducer = (state = initialState, action) => {
 	}
 };
 
-export default cartReducer;
+export default sideBarReducer;
